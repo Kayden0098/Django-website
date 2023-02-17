@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    min-width: 100vh;
+    background-color: whitesmoke;
+}
+header{
+    background-attachment: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 3px black;
+    padding: 1rem 2rem;
+}
+header img{
+    width: 200px;
+}
+.infomsg span{
+font-size: 1.2rem ;
+font-family: calibri;
+}
+.infomsg a{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-family: monospace;
+    letter-spacing: -2px;
+}
+.btn img{
+    height: 32px;
+}
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.left, .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+    background-color: whitesmoke;
+}
+.right img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.right .content{
+    position: absolute;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+
+}
+.right .content h2{
+font-size: 2rem;
+font-family: calibri;
+font-weight: 5000;
+padding: 2rem;
+color: aliceblue;
+text-shadow: 0 0 10px black;
+
+}
+.right .content h4{
+    font-size: 1.5rem;
+    font-family: calibri;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.right .content h2{
+    font-size: 2.5rem;
+}
+.right .content h4{
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: white;
+    border: 1px solid #9d9999;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    font-family: calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    border-radius: .5rem;
+    margin-bottom:  1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: none;
+
+
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid #1726b0;
+}
