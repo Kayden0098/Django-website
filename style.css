@@ -110,6 +110,7 @@ text-shadow: 0 0 10px black;
     padding: 2.5rem;
     border-radius: .3rem;
     box-shadow: 0 1px 10px #000;
+    border-radius: .5rem;
 }
 .form-card h2{
 font-size: 2rem;
@@ -131,4 +132,29 @@ margin-bottom: 1rem;
 .form-control label span{
 color: rgb(120, 68, 68);
 font-weight: bold;
+}
+.form-control input{
+    padding: .5rem 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+     font-family: 'Courier New', Courier, monospace;
+     margin-top: .5rem;
+
+}
+hr{
+    margin: 1.5rem;
+    border: 1px solid rgb(141, 138, 138);
+}
+.btn-login{
+    background-color: #1726b0;
+    color: white;
+    padding: .75rem;
+
+}
+.btn-login-hover{
+    background-color: blue;
+    font-family: monospace;
+    font-size: 1.2rem;
+    
 }
