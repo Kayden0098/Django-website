@@ -158,7 +158,7 @@ hr{
     font-size: 1.2rem;
     
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .main{
         justify-content: center;
         align-items: center;
