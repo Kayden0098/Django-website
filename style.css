@@ -158,10 +158,16 @@ hr{
     font-size: 1.2rem;
     
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:680px){
+    .header{
+        flex-direction: column;
+        padding: 1rem;
+        
+    }
     .main{
         justify-content: center;
         align-items: center;
+        min-height: 100vh;
     }
     .right {
         display: none;
