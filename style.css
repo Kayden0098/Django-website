@@ -61,8 +61,10 @@ main{
 .right .content h2{
 font-size: 2rem;
 font-family: calibri;
-font-weight: 5000;
+font-weight: 500;
 padding: 2rem;
+justify-content: center;
+align-items: center;
 color: aliceblue;
 text-shadow: 0 0 10px black;
 
@@ -70,7 +72,7 @@ text-shadow: 0 0 10px black;
 .right .content h4{
     font-size: 1.5rem;
     font-family: calibri;
-    font-weight: 400;
+    font-weight: 1;
     color: white;
     text-shadow: 0 0 10px black;
 }
@@ -102,4 +104,31 @@ text-shadow: 0 0 10px black;
     background-color: blue;
     color: white;
     border: 1px solid #1726b0;
+}
+.form-card{
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: .3rem;
+    box-shadow: 0 1px 10px #000;
+}
+.form-card h2{
+font-size: 2rem;
+font-family: sans-serif;
+font-weight: bolder;
+margin-bottom: 1rem;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+.form-control label{
+    color: #1726b0;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.form-control label span{
+color: rgb(120, 68, 68);
+font-weight: bold;
 }
