@@ -24,23 +24,30 @@ main{
     height: 100vh;
     object-fit: cover; 
 }
+.right{
+    justify-content: center;
+    background-position-y: center;
+    
+}
+
 .content{
     position: absolute;
     text-align: center;
     padding: 2rem;
     margin: 1rem;
-    font-family: calibri;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-shadow: 0 0 10px black;
     font-weight: 500;
+    justify-content: center;
     
 }
 .content li{
-    text-align: left;
+    text-align: center;
     font-weight: 700;
 }
 .content h1{
-    font-size: 5rem;
+    font-size: 1rem;
 }
 .btn img {
    height: 30px;
@@ -51,28 +58,36 @@ main{
     margin-right: .5rem; 
 }
 hr{
-    margin: 0.5rem 0;
+    margin: .5rem .1rem;
+    padding: .1rem;
     border: 1px solid rgb(182, 176, 176);
 }
 .header h3{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     text-shadow: 0 0 10px black;
 }
 .form{
-    background-color: white;
-    padding: 2.5rem;
+    justify-content: center;
+    padding: .5rem;
+}
+.label .btn-wrapper{
+    padding: 1rem;
+    justify-content: center;
+
+
 }
 .btn {
     background-color: rgb(226, 224, 231);
     border: 1px solid rgb(169, 212, 247);
     text-decoration: none;
     padding: .1rem 1rem;
-    font-family: calibri;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 100%;
+    justify-items: center;
+    min-width: 50%;
     border-radius: .5rem;
     margin-bottom: .5rem;
     font-size: 1.2rem;
@@ -101,9 +116,11 @@ hr{
 .input-email{
     font-size: 1rem;
     margin: .1rem;
+    color: aliceblue;
 }
 .btn-wrapper{
     display: flex;
     justify-content: center;
     align-items: stretch;   
+    text-align: center;
 }
