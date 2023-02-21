@@ -18,7 +18,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 5rem;
+            font-size: 2rem;
             color: whitesmoke;
             cursor: pointer;
         }
@@ -27,17 +27,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="box"id="b1">1</div>
-        <div class="box"id="b2">2</div>
+        <div class="box"id="b1">0</div>
+        <div class="box"id="b2">1</div>
     </div>
 
     <script>
 
         let box1 = document.querySelector('#b1');
         let box2 = document.querySelector('#b2');
+        let box_2_is_hidden = false;
         box1.addEventListener('click',(e)=>{
-            box2.style.display ='none';
-        })
+            if(box_2_is_hidden){
+                box2.style.display ='flex';
+                box1.textContent = '0'
+                box1.style.backgroundColor = 'red' ;
+                box2.style.backgroundColor = 'violet' ;
+                box_2_is_hidden =false;
+
+            }
+            else{
+                
+                box2.style.display ='none';
+                box1.textContent = '01'
+                box1.style.backgroundColor = ' black' ;
+                box_2_is_hidden =true;
+
+            }
+               })
     </script>
     
 </body>
